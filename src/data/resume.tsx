@@ -104,11 +104,11 @@ export const DATA = {
       href: "https://trybeacon.app",
       dates: "May 2025 - Present",
       description:
-        "An AI-powered study assistant that transforms your PDFs, documents, slides, and videos into interactive revision sets.",
+        "An AI-powered study assistant that transforms your PDFs, documents, slides, and text into interactive revision sets.",
       technologies: [
         "Next.js",
         "TypeScript",
-        "TailwindCSS",
+        "Tailwind CSS",
         "Supabase",
         "Drizzle ORM",
         "Vercel AI SDK",
