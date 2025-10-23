@@ -48,6 +48,7 @@ export function ProjectCard({
     >
       <Link
         href={href || "#"}
+        target={href ? "_blank" : "_self"}
         className={cn("block cursor-pointer", className)}
       >
         {video && (

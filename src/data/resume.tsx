@@ -61,6 +61,14 @@ export const DATA = {
 
   work: [
     {
+      company: "Performant",
+      href: "https://performant.framer.website",
+      title: "Co-Founder",
+      logoUrl: "/performant-logo.png",
+      start: "October 2025",
+      end: "Present",
+    },
+    {
       company: "Magic Hour (YC W24)",
       href: "https://magichour.ai",
       title: "Software Engineer",
@@ -112,31 +120,31 @@ export const DATA = {
     },
   ],
   projects: [
-    // {
-    //   title: "Beacon",
-    //   href: "https://trybeacon.app",
-    //   dates: "May 2025 - Present",
-    //   description:
-    //     "An AI-powered study assistant that transforms your PDFs, documents, slides, and text into interactive revision sets.",
-    //   technologies: [
-    //     "Next.js",
-    //     "TypeScript",
-    //     "Tailwind CSS",
-    //     "Supabase",
-    //     "Drizzle ORM",
-    //     "Vercel AI SDK",
-    //     "Zod",
-    //     "Shadcn UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://trybeacon.app",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/beacon.png",
-    // },
+    {
+      title: "Performant",
+      href: "https://performant.framer.website",
+      dates: "Oct 2025 - Present",
+      description: "Your personalized health OS.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "React Native",
+        "Expo",
+        "PostgreSQL",
+        "SQLite",
+        "Express.js",
+        "Tailwind CSS",
+        "Drizzle ORM",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://performant.framer.website",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/performant-thumbnail.png",
+    },
     {
       title: "AI Meme Generator",
       href: "https://magichour.ai/products/ai-meme-generator",
