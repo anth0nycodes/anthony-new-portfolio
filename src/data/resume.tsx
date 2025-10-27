@@ -13,26 +13,46 @@ export const DATA = {
     "Hi, my name is Anthony Hoang and I'm based in NYC. I like creating cool things and learning new things.",
   avatarUrl: "/mepfpupdated.png",
   skills: [
-    "Next.js",
-    "React.js",
-    "React Native",
-    "TypeScript",
-    "Express.js",
-    "Node.js",
-    "PostgreSQL",
-    "tRPC",
-    "Supabase",
-    "Tailwind CSS",
-    "Shadcn UI",
-    "Zod",
-    "Drizzle ORM",
-    "Vercel AI SDK",
-    "OpenAI API",
-    "Vercel",
-    "Git",
-    "Vite",
-    "Figma",
-    "Linear",
+    // Frontend Frameworks & Platforms
+    { name: "Next.js", src: "https://nextjs.org/" },
+    { name: "React.js", src: "https://react.dev/" },
+    { name: "React Native", src: "https://reactnative.dev/" },
+    { name: "Expo", src: "https://expo.dev/" },
+
+    // Languages
+    { name: "TypeScript", src: "https://www.typescriptlang.org/" },
+    { name: "Node.js", src: "https://nodejs.org/" },
+
+    // Backend Frameworks
+    { name: "Express.js", src: "https://expressjs.com/" },
+    { name: "tRPC", src: "https://trpc.io/" },
+
+    // Databases & ORM
+    { name: "PostgreSQL", src: "https://www.postgresql.org/" },
+    { name: "Drizzle ORM", src: "https://orm.drizzle.team/" },
+    { name: "Supabase", src: "https://supabase.com/" },
+
+    // Validation & Schema
+    { name: "Zod", src: "https://zod.dev/" },
+
+    // Styling & UI Libraries
+    { name: "Tailwind CSS", src: "https://tailwindcss.com/" },
+    { name: "Shadcn UI", src: "https://ui.shadcn.com/" },
+
+    // AI / SDKs
+    { name: "Vercel AI SDK", src: "https://sdk.vercel.ai/" },
+    { name: "OpenAI API", src: "https://platform.openai.com/docs/" },
+
+    // Deployment & Infrastructure
+    { name: "Vercel", src: "https://vercel.com/" },
+
+    // Developer Tools
+    { name: "Git", src: "https://git-scm.com/" },
+    { name: "Vite", src: "https://vitejs.dev/" },
+    { name: "Linear", src: "https://linear.app/" },
+
+    // Design Tools
+    { name: "Figma", src: "https://www.figma.com/" },
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -48,6 +68,12 @@ export const DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/anth0nycodes/",
         icon: Icons.linkedin,
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://x.com/anth0nycodes",
+        icon: Icons.x,
         navbar: true,
       },
       Email: {
