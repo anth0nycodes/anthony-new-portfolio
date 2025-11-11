@@ -86,14 +86,14 @@ export const DATA = {
   },
 
   work: [
-    {
-      company: "Performant",
-      href: "https://performant.framer.website",
-      title: "Co-Founder",
-      logoUrl: "/performant-logo.png",
-      start: "October 2025",
-      end: "Present",
-    },
+    // {
+    //   company: "Performant",
+    //   href: "https://performant.framer.website",
+    //   title: "Co-Founder",
+    //   logoUrl: "/performant-logo.png",
+    //   start: "October 2025",
+    //   end: "Present",
+    // },
     {
       company: "Magic Hour (YC W24)",
       href: "https://magichour.ai",
@@ -120,7 +120,7 @@ export const DATA = {
     },
     {
       company: "Muslim Tech Collaborative",
-      href: "https://muslimtech.org/",
+      href: "https://mtc.so/",
       title: "Frontend Developer",
       logoUrl: "/mtc.png",
       start: "December 2024",
@@ -146,31 +146,31 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Performant",
-      href: "https://performant.framer.website",
-      dates: "Oct 2025 - Present",
-      description: "Your personalized health OS.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "React Native",
-        "Expo",
-        "PostgreSQL",
-        "SQLite",
-        "Express.js",
-        "Tailwind CSS",
-        "Drizzle ORM",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://performant.framer.website",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/performant-thumbnail.png",
-    },
+    // {
+    //   title: "Performant",
+    //   href: "https://performant.framer.website",
+    //   dates: "Oct 2025 - Present",
+    //   description: "Your personalized health OS.",
+    //   technologies: [
+    //     "Next.js",
+    //     "TypeScript",
+    //     "React Native",
+    //     "Expo",
+    //     "PostgreSQL",
+    //     "SQLite",
+    //     "Express.js",
+    //     "Tailwind CSS",
+    //     "Drizzle ORM",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://performant.framer.website",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/performant-thumbnail.png",
+    // },
     {
       title: "AI Meme Generator",
       href: "https://magichour.ai/products/ai-meme-generator",
