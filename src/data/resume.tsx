@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, BrainIcon } from "lucide-react";
 
 export const DATA = {
   name: "Anthony Hoang",
@@ -54,7 +54,10 @@ export const DATA = {
     // Design Tools
     { name: "Figma", src: "https://www.figma.com/" },
   ],
-  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/thoughts", icon: BrainIcon, label: "Thoughts" },
+  ],
   contact: {
     email: "hoanganthony2207@gmail.com",
     social: {

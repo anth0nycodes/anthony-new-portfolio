@@ -5,12 +5,18 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
+import localFont from "next/font/local";
 import { ReactLenis } from "@/utils/lenis";
 import "./globals.css";
 
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
+});
+
+const fontMinecraft = localFont({
+  src: "../fonts/Minecraft.ttf",
+  variable: "--font-minecraft",
 });
 
 export const metadata: Metadata = {
@@ -57,6 +63,7 @@ export default function RootLayout({
           className={cn(
             "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
             fontSans.variable,
+            fontMinecraft.variable,
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="light">
